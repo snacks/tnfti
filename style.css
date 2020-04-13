@@ -1,0 +1,58 @@
+@font-face{
+font-family: 'brandonBld';
+src: url('Brandon_bld.woff') format("woff");
+}
+
+@font-face{
+font-family:'brandonReg';
+src: url('Brandon_reg.woff') format("woff");
+}
+
+body{
+background-color:black;
+text-align: center;
+font-family:'brandonReg', Fallback, sans-serif;
+color:white;
+}
+
+body img{
+max-width:800px;
+margin:0;
+padding:0;
+}
+
+.header{
+color:#a8beaf;
+  text-shadow:
+     1px  1px 0 #fff;
+font-size:1.2em;
+width:800px;
+text-align: center;
+margin: 20px 0 20px 0;
+}
+
+
+.container{
+display:inline-block;
+max-width:800px;
+}
+
+.left{
+text-align:right;
+width:400px;
+clear:right;
+float:left;
+margin:20px 0 20px 0;
+}
+
+.right{
+text-align:left;
+width:400px;
+clear:left;
+float:right;
+margin:20px 0 20px 0;
+}
+
+.right p, .left p{
+letter-spacing:.1em;
+}
