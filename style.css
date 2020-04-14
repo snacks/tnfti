@@ -39,15 +39,14 @@ max-width:800px;
 
 .left{
 text-align:right;
-width:400px;
-clear:right;
+width:800px;
 float:left;
 margin:20px 0 20px 0;
 }
 
 .right{
 text-align:left;
-width:400px;
+width:800px;
 clear:left;
 float:right;
 margin:20px 0 20px 0;
@@ -55,4 +54,16 @@ margin:20px 0 20px 0;
 
 .right p, .left p{
 letter-spacing:.1em;
+}
+
+.right img, .left img{
+max-width:350px;
+}
+
+.textBox{
+width:400px;
+}
+
+.left img{
+float:right;
 }
