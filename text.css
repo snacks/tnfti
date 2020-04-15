@@ -1,0 +1,22 @@
+#donate {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 2s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+ padding:0px;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #a8beaf, 0 0 20px #a8beaf, 0 0 25px #a8beaf, 0 0 30px #a8beaf, 0 0 35px #a8beaf;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 20px #2d4334, 0 0 25px #2d4334, 0 0 30px #2d4334, 0 0 35px #2d4334, 0 0 40px #2d4334, 0 0 45px #2d4334;
+  }
+}
+
+#donate:hover{
+animation-play-state: paused;
+}
