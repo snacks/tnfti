@@ -36,7 +36,7 @@ text-shadow: 0 0 5px black;
 color:#a8beaf;
 font-size:1.2em;
 text-align: center;
-margin: 20px 0 50px 0;
+padding: 20px 0 50px 0;
 position:relative;
 top:0;
 }
@@ -50,16 +50,17 @@ max-width:800px;
 .left{
 text-align:right;
 width:800px;
+height: 330px;
 float:left;
-margin:20px 0 20px 0;
+margin:20px 0 100px 0;
 }
 
 .right{
 text-align:left;
 width:800px;
-clear:left;
+height: 330px;
 float:right;
-margin:20px 0 20px 0;
+margin:20px 0 80px 0;
 }
 
 .right p, .left p{
@@ -72,8 +73,14 @@ max-width:350px;
 
 .textBox{
 width:400px;
+height: 75px;
 }
 
 .left img{
 float:right;
+}
+
+.right img{
+float:left;
+margin-top:140px;
 }
