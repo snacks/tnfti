@@ -23,7 +23,7 @@ padding:0;
 
 a{
 text-decoration:none;
-padding:30px;
+margin:30px;
 color:white;
 text-shadow: 0 0 5px #a8beaf;
 }
@@ -36,7 +36,7 @@ text-shadow: 0 0 5px black;
 color:#a8beaf;
 font-size:1.2em;
 text-align: center;
-padding: 20px 0 50px 0;
+margin: 20px 0 50px 0;
 position:relative;
 top:0;
 }
@@ -83,4 +83,16 @@ float:right;
 .right img{
 float:left;
 margin-top:140px;
+}
+
+.embedContainer{
+width:400px;
+text-align:center;
+height:212;
+width: 800px!important;
+    position: absolute;
+    top: 3200px;
+}
+.gfm-embed{
+width:400px !important;
 }
